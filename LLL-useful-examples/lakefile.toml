@@ -1,0 +1,10 @@
+name = "LLL-useful-examples"
+version = "0.1.0"
+defaultTargets = ["lll-useful-examples"]
+
+[[lean_lib]]
+name = "LLLUsefulExamples"
+
+[[lean_exe]]
+name = "lll-useful-examples"
+root = "Main"
