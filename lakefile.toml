@@ -1,0 +1,10 @@
+name = "useful-examples"
+version = "0.1.0"
+defaultTargets = ["useful-examples"]
+
+[[lean_lib]]
+name = "UsefulExamples"
+
+[[lean_exe]]
+name = "useful-examples"
+root = "Main"
